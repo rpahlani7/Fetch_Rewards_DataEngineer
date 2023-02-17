@@ -1,11 +1,9 @@
 # Fetch_Rewards_DataEngineer
-
-
-Ans1. I would spin up an EC2 instance, ssh into it, clone the repo, and run python Test.py.
+Ans1. 
 
 Ans2. I  Would refactor the code into functions.
 
-Ans3.
+Ans3. To scale this, it would need to be re-written to use async capabilities.
 
 Ans4. In order to keep PII, We would need to keep the data in secure position.
 
