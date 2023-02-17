@@ -7,6 +7,7 @@ Steps to Run
 4. Run python file fetch_solution.py
 
 1.How would you deploy this application in production?
+
 Ans1.We can construct a Dockerfile for this application and deploy it using any container management system for production deployment; with AWS, we may use ECS.
 
 2.What other components would you want to add to make this production ready?
@@ -21,8 +22,10 @@ Horizontal scaling: Increase the number of machines supporting the program to ha
 We will always have several messages in the SQS queue due to the expanding dataset of user logins, thus we must set a restriction on data transfer between SQS and compute and maintain it at a high number of messages just below the network transfer limits in order to process messages efficiently.
 
 4.How can PII be recovered later on?
+
 Ans4. In order to keep PII, We would need to keep the data in secure position.
 
 5.What are the assumptions you made?
+
 Ans5.I have used hashlib for masking the values, prefered use python for 
 this home test because I am familiar with it.
